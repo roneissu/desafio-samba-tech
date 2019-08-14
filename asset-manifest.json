@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/desafio-samba-tech/static/css/main.d1ed511f.chunk.css",
-    "main.js": "/desafio-samba-tech/static/js/main.8d85c960.chunk.js",
-    "main.js.map": "/desafio-samba-tech/static/js/main.8d85c960.chunk.js.map",
+    "main.css": "/desafio-samba-tech/static/css/main.84e42edf.chunk.css",
+    "main.js": "/desafio-samba-tech/static/js/main.1eacd89b.chunk.js",
+    "main.js.map": "/desafio-samba-tech/static/js/main.1eacd89b.chunk.js.map",
     "runtime~main.js": "/desafio-samba-tech/static/js/runtime~main.f94f0692.js",
     "runtime~main.js.map": "/desafio-samba-tech/static/js/runtime~main.f94f0692.js.map",
     "static/js/2.9be8c276.chunk.js": "/desafio-samba-tech/static/js/2.9be8c276.chunk.js",
     "static/js/2.9be8c276.chunk.js.map": "/desafio-samba-tech/static/js/2.9be8c276.chunk.js.map",
     "index.html": "/desafio-samba-tech/index.html",
-    "precache-manifest.b4de57958bf3a329d7b44a2ffabc5dd2.js": "/desafio-samba-tech/precache-manifest.b4de57958bf3a329d7b44a2ffabc5dd2.js",
+    "precache-manifest.2861d69650165a1de90bb6c40fa327a0.js": "/desafio-samba-tech/precache-manifest.2861d69650165a1de90bb6c40fa327a0.js",
     "service-worker.js": "/desafio-samba-tech/service-worker.js",
-    "static/css/main.d1ed511f.chunk.css.map": "/desafio-samba-tech/static/css/main.d1ed511f.chunk.css.map"
+    "static/css/main.84e42edf.chunk.css.map": "/desafio-samba-tech/static/css/main.84e42edf.chunk.css.map"
   }
 }
