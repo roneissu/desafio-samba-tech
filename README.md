@@ -1,3 +1,8 @@
+# Desafio Samba Tech
+Candidato: Ronaldo Luis de Sá Santos
+
+### O conteúdo abaixo foi gerado automaticamente pelo Create React App 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
