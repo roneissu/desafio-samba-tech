@@ -1,0 +1,25 @@
+.char-title {
+    float: left;
+}
+
+.char-list {
+    flex: 1;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    height: 50vh;
+    margin: 0;
+    /* margin: 10vh 10vw; */
+    padding: 0;
+}
+
+.char-item {
+    height: 220px;
+    width: 180px;
+    margin: 1vh 1vw;
+}
+
+span {
+    color: aliceblue;
+}

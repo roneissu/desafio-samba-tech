@@ -1,0 +1,25 @@
+.paginator-container {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    height: 10vh;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.paginator-number {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.selected-page {
+    text-decoration: underline;
+}
