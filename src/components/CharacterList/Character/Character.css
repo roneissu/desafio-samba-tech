@@ -1,0 +1,64 @@
+.char-card {
+    margin: 0;
+    padding: 0;
+    height: 240px;
+    overflow: hidden;
+}
+
+.image {
+    width: 180px;
+}
+
+.status-container {
+    min-height: 20px;
+    width: 70px;
+    padding: 3px;
+    background-color: darkslategrey;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    top: -230px;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deceased {
+    background-color: #ff6229;
+}
+
+.Alive {
+    background-color: #1b801b;
+}
+
+.info-container {
+    height: 220px;
+    width: 160px;
+    color: white;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    position: relative;
+    top: -250px;
+    padding: 0 10px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.info-name {
+    font-size: 14pt;
+    width: 100%;
+}
+
+.info-birthday {
+    font-size: 10pt;
+    width: 100%;
+}
+
+.info-occupation {
+    font-size: 7pt;
+    width: 100%;
+}
