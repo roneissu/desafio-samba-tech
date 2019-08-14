@@ -12,7 +12,7 @@ export default function Header({ callback }) {
 
     return (
         <div className='head-container'>
-            <img src='/assets/breaking_bad_logo.png' alt='Bracking Bad' className='title'/>
+            <img src='assets/breaking_bad_logo.png' alt='Breaking Bad' className='title'/>
             {/* <span className='title'>Header</span> */}
             <input type='text' onChange={ handleChange } value={ filterValue }></input>
         </div>
