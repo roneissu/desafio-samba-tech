@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/desafio-samba-tech/precache-manifest.31bfb23c9044a54eccdd6a0c2c666bfd.js"
+  "/desafio-samba-tech/precache-manifest.72b0eda058fec1b8bfcdca79a4f62d56.js"
 );
 
 self.addEventListener('message', (event) => {

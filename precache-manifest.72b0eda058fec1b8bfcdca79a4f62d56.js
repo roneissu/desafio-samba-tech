@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "385bd804a609de9da18be2d4e1619d63",
+    "revision": "73a8f8996949ed5e7b37646f15e0ec17",
     "url": "/desafio-samba-tech/index.html"
   },
   {
-    "revision": "2937e5dd744601e9baf8",
+    "revision": "57d644a736ffa5dc92c3",
     "url": "/desafio-samba-tech/static/css/main.d1ed511f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio-samba-tech/static/js/2.9be8c276.chunk.js"
   },
   {
-    "revision": "2937e5dd744601e9baf8",
-    "url": "/desafio-samba-tech/static/js/main.31c6f52a.chunk.js"
+    "revision": "57d644a736ffa5dc92c3",
+    "url": "/desafio-samba-tech/static/js/main.47d61ad7.chunk.js"
   },
   {
     "revision": "cea66aa5deac5267b516",
