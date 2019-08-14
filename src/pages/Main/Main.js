@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import './Main.css';
 
-// import CharacterService from '../../services/CharacterService';
-
 import Header from '../../components/Header/Header';
 import CharacterList from '../../components/CharacterList/CharacterList';
 import Paginator from '../../components/Paginator/Paginator';
+import SearchList from '../../components/SearchList/SearchList';
 
 const baseUrl = 'https://www.breakingbadapi.com/api/';
-const configPage = 10;
+const configPage = 12;
 
-export default function Characters() {
+export default function PageMain() {
 
     const [pagesTotal, setPagesTotal] = useState(0);
     const [pageNumber, setPageNumber] = useState(1);
     const [filterValue, setFilterValue] = useState('');
+    const [filterClicked, setFilterClicked] = useState(false);
     const [listCharacter, setListCharacter] = useState([]);
 
     useEffect(() => {
@@ -24,6 +24,14 @@ export default function Characters() {
     useEffect(() => {
         getPaginatedCharacterList( configPage, (pageNumber-1)*configPage );
     }, [pageNumber]);
+
+    function getAllCharacters() {
+        setFilterClicked(true);
+        fetch(baseUrl + `characters`)
+            .then((response) => response.json())
+            .then((response) => setListCharacter(response))
+            .catch((error) => console.log('An error ocourred' + error))
+    }
 
     function getNumberTotalOfPages() {
         fetch(baseUrl + `characters`)
@@ -41,9 +49,16 @@ export default function Characters() {
 
     return (
         <div className='page'>
-            <Header callback={ setFilterValue } />
-            <CharacterList listCharacter={ listCharacter } filterValue={ filterValue } />
-            <Paginator pagesNumber={ pagesTotal } pageSel={ pageNumber } callback={ setPageNumber } />
+            <Header callback={ setFilterValue } clickSearch={ getAllCharacters } />
+            {
+                filterClicked ?
+                <SearchList listCharacter={ listCharacter } filterValue={ filterValue } />
+                :
+                <>
+                    <CharacterList listCharacter={ listCharacter } />
+                    <Paginator pagesNumber={ pagesTotal } pageSel={ pageNumber } callback={ setPageNumber } />
+                </>
+            }
         </div>
     );
 }

@@ -1,24 +1,24 @@
 .char-card {
     margin: 0;
     padding: 0;
-    height: 240px;
+    height: 180px;
     overflow: hidden;
 }
 
 .image {
-    width: 180px;
+    width: 150px;
 }
 
 .status-container {
     min-height: 20px;
     width: 70px;
     padding: 3px;
-    background-color: darkslategrey;
+    background-color: #2f4f4f80;
     font-size: 10px;
     font-weight: bold;
     position: relative;
     color: white;
-    top: -230px;
+    top: -170px;
     float: right;
     text-align: center;
     text-transform: uppercase;
@@ -28,20 +28,20 @@
 }
 
 .Deceased {
-    background-color: #ff6229;
+    background-color: #ff622980;
 }
 
 .Alive {
-    background-color: #1b801b;
+    background-color: #1b801b80;
 }
 
 .info-container {
-    height: 220px;
-    width: 160px;
+    height: 180px;
+    width: 150px;
     color: white;
     text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
     position: relative;
-    top: -250px;
+    top: -200px;
     padding: 0 10px;
     display: flex;
     align-content: flex-end;
