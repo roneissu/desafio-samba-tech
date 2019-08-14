@@ -6,9 +6,6 @@ export default function Character({ params }) {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        // fetch('https://www.breakingbadapi.com/api/characters/1')
-        //     .then(res => res.json()[0])
-        //     .then(res => setData(res))
         setData(params);
     }, [params]);
 
